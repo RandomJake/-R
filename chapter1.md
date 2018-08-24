@@ -1,9 +1,9 @@
 ---
-title: 'Template Chapter 1'
-description: 'This is a template chapter.'
+title: '1 Введение в основы'
+description: "В этой главе вы сделаете первые шаги с R. Вы узнаете, как использовать консоль в качестве калькулятора и как назначать переменные. Вы также познакомитесь с базовыми типами данных в R. Давайте начнем!\n\n"
 ---
 
-## An exercise title written in sentence case
+## Как это работает
 
 ```yaml
 type: NormalExercise 
@@ -14,21 +14,19 @@ key: 1728f156db
 ```
 
 
-This is the assignment text. It should help provide students with the background information needed.
-The instructions that follow should be in bullet point form with clear guidance for what is expected.
+В редакторе справа вы должны ввести R-код для решения упражнений. Когда вы нажимаете кнопку «Отправить ответ», каждая строка кода интерпретируется и выполняется R, и вы получаете сообщение о том, был ли ваш код правильным. Вывод вашего R-кода отображается в консоли в нижнем правом углу.
+
+R использует "#" знак для добавления комментариев, чтобы вы и другие могли понять, что такое код R. Так же, как Twitter! Комментарии не запускаются как R-код, поэтому они не будут влиять на ваш результат. Например, Calculate 3 + 4 в редакторе справа - комментарий.
+
+Вы также можете выполнять команды R прямо в консоли. Это хороший способ экспериментировать с R-кодом, так как ваше представление не проверено на правильность.
 
 
 `@instructions`
-- Instruction 1
-- Instruction 2
-- Instruction 3
-- Instruction 4
+- В редакторе справа уже есть пример кода. Вы можете видеть, какие строки являются реальным кодом R и какие комментарии?
+- Добавьте строку кода, которая вычисляет сумму 6 и 12, и нажмите кнопку «Отправить ответ».
 
 `@hint`
-- Here is the hint for this setup problem. 
-- It should get students 50% of the way to the correct answer.
-- So don't provide the answer, but don't just reiterate the instructions.
-- Typically one hint per instruction is a sensible amount.
+- Просто добавьте строку кода R, которая вычисляет сумму 6 и 12, как пример в примере кода!
 
 `@pre_exercise_code`
 
@@ -40,25 +38,23 @@ The instructions that follow should be in bullet point form with clear guidance 
 `@sample_code`
 
 ```{r}
-# Your
-# sample
-# code
-# should
-# be
-# ideally
-# 10 lines or less,
-# with a max
-# of 16 lines.
+# рассчитать 3 + 4
+
+
+# рассчитать 6 + 12
+
+
 ```
 
 
 `@solution`
 
 ```{r}
-# Answer goes here
-# Make sure to match the comments with your sample code
-# to help students see the differences from solution
-# to given.
+# рассчитать 3 + 4
+3 + 4
+
+# рассчитать 6 + 12
+6 + 12 
 ```
 
 
